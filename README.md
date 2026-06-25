@@ -1,5 +1,6 @@
 **UPDATE June 25,2026:** Given the sensitive nature of tunneling tools, I'm going to start requiring at least 100 GitHub stars on any new additions. Projects not hosted on GitHub and commercial offerings will be handled case-by-case. Feel free to open an issue if you see a problem with this policy.
 
+
 # What is this list for
 
 The purpose of this list is to track and compare tunneling solutions. This is
@@ -9,6 +10,7 @@ even if behind a NAT or other restricted network.
 
 <!--**NOTE:** We're building a community around self-hosting, data ownership, and decentralization in general.
 Join us over at [IndieBits.io](https://forum.indiebits.io).-->
+
 
 # The dream
 
@@ -28,10 +30,12 @@ So far I haven't found a tool that does all of this. In particular, while some
 of them can do automatic certs through Let's Encrypt, none of them integrate
 the domain registration and DNS management in a simple way.
 
+
 # Recommendations
 
 * For most people, I currently recommend [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/). Although it's closed source, this is the production-quality service that gets the closest to achieving the dream. It's also a loss-leader for Cloudflare's other products which means they can offer it for free.
 * If you want to self-host, there are many options. For something production ready I would look at [Pangolin](https://github.com/fosrl/pangolin) or [frp](https://github.com/fatedier/frp). If you're a developer and want something very simple, I'd recommend starting with my own [SirTunnel](https://github.com/anderspitman/SirTunnel) project and modifying it for your needs.
+
 
 # Open source (at least with a reasonably permissive license)
 * [Telebit](https://telebit.cloud/) - Written in JS. [Code](https://git.coolaj86.com/coolaj86/telebit.js). 
@@ -133,6 +137,7 @@ the domain registration and DNS management in a simple way.
 * [Lokal.so](https://lokal.so/?ref=awesome-tunneling) HTTP/TCP/UDP Tunneling & Debugging, zero-config .local address with https, built-in S3 Server, AI Assistant, available as Desktop GUI, Web, REST API, and *CLI, available on Mac, Windows and Linux.
 * [Optimistix Tunnel](https://optimistixtunnel.com/) - Easily expose your local server to the internet with simple SSH-based tunneling. Supports HTTP(S) and TCP. No signup, no install—just connect and go. Free plan available.
 
+
 # Overlay networks and other advanced tools
 
 * [headscale](https://github.com/juanfont/headscale) [![headscale github stars badge](https://img.shields.io/github/stars/juanfont/headscale?style=flat)](https://github.com/juanfont/headscale/stargazers) - Open source implementation of Tailscale control server. Can be used with Tailscale's official open source client. Written in Go.
@@ -161,6 +166,7 @@ the domain registration and DNS management in a simple way.
 * [frp-operator](https://github.com/zufardhiyaulhaq/frp-operator) [![frp-operator github stars badge](https://img.shields.io/github/stars/zufardhiyaulhaq/frp-operator?style=flat)](https://github.com/zufardhiyaulhaq/frp-operator/stargazers) - Kubernetes integration for [FRP](https://github.com/fatedier/frp). MIT License. Written in Go.
 * [Mycoria](https://mycoria.org/) [![mycoria github stars badge](https://img.shields.io/github/stars/mycoria/mycoria?style=flat)](https://github.com/mycoria/mycoria/stargazers) - Overlay network where the IPv6 address is the key: Easily share address + public key via a DNS AAAA record or map names locally. Secure by default (firewall included). BSD-3 license. Written in Go.
 * [Nilloc](https://nilloc.io/) - Developer-focused. Aims to have better pricing than ngrok. Free tier.
+
 
 # Reference
 
