@@ -12,7 +12,7 @@ even if behind a NAT or other restricted network.
 Join us over at [IndieBits.io](https://forum.indiebits.io).-->
 
 
-# The dream
+# Unified Platform for Domain Registration, DNS Automation, HTTPS, and Secure Tunneling
 
 I started this list because I'm looking for a simple tool/service that does the
 following:
